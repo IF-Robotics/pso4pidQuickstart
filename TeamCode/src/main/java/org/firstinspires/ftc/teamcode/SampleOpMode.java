@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 import CommonUtilities.AngleRange;
 
-@TeleOp(name = "SampleOpModeJ", group = "Linear OpMode")
+@TeleOp(name = "SampleOpMode", group = "Linear OpMode")
 public class SampleOpMode extends LinearOpMode {
 
     @Override

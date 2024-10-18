@@ -27,6 +27,7 @@ public class Constants {
     public final String motorName = "shoulder";
 
 
+
     //todo provide the angles (in radians) that your arm can run to when testing (larger range the better)
     public final AngleRange testingAngle = new AngleRange(0.0, PI);
     //todo provide angles (in radians) that present as obstacles to the system. If none set to null

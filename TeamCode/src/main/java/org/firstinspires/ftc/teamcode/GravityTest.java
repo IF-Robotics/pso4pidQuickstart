@@ -15,7 +15,7 @@ import java.util.Arrays;
 import ArmSpecific.ArmAngle;
 import CommonUtilities.Models;
 
-@TeleOp(name = "GravityJ", group = "Linear OpMode")
+@TeleOp(name = "GravityTest", group = "Linear OpMode")
 public class GravityTest extends LinearOpMode {
     @Override
     public void runOpMode() {

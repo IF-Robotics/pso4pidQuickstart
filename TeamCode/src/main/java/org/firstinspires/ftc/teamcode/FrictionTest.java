@@ -16,7 +16,7 @@ import ArmSpecific.ArmAngle;
 import CommonUtilities.Models;
 import CommonUtilities.RemoveOutliers;
 
-@TeleOp(name = "FrictionJ", group = "Linear OpMode")
+@TeleOp(name = "FrictionTest", group = "Linear OpMode")
 public class FrictionTest extends LinearOpMode {
 
     @Override
