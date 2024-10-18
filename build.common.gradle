@@ -117,5 +117,6 @@ android {
 }
 
 repositories {
+    maven { url = "https://jitpack.io" } // Required for JitPack libraries
 }
 

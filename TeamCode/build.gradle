@@ -24,5 +24,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.github.DaCodingBeast:pso4pids:v1.0.9'
     implementation project(':FtcRobotController')
 }
+
