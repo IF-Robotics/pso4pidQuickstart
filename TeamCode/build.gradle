@@ -22,12 +22,10 @@ android {
         jniLibs.useLegacyPackaging true
     }
 }
-repositories{
-    mavenCentral()
-    maven { url = "https://jitpack.io" }
-}
 dependencies {
-    implementation 'com.github.DaCodingBeast:pso4pids:1.1.0'
+    implementation 'com.github.DaCodingBeast:pso4pids:1.1.1'
+    implementation "com.acmerobotics.dashboard:dashboard:0.4.16"
     implementation project(':FtcRobotController')
+    testImplementation 'junit:junit:4.13.2'
 }
 
