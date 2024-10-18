@@ -23,9 +23,6 @@ android {
     }
 }
 repositories{
-    mavenCentral()
-    maven { url = "https://jitpack.io" }
-    maven{url = 'https://maven.brott.dev/'}
 }
 dependencies {
     implementation 'com.github.DaCodingBeast:pso4pids:1.1.5'
