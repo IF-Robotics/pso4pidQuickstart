@@ -22,16 +22,16 @@ public class Constants {
     //CONFIGURATIONS - do before running anything
 
     //todo Assign Your Motor Specs, direction, and CONFIG Name
-    public final Hardware.Motor motor = Hardware.YellowJacket.RPM84; // for geared motors new Hardware.Motor(RPM,EncTicksPerRev,StallTorque,GearRatio);
-    public final DcMotorSimple.Direction motorDirection = DcMotorSimple.Direction.REVERSE;
-    public final String motorName = "shoulder";
+    public final Hardware.Motor motor = new Hardware.Motor(30, 5281.1, 250, 1); // for geared motors new Hardware.Motor(RPM,EncTicksPerRev,StallTorque,GearRatio);
+    public final DcMotorSimple.Direction motorDirection = DcMotorSimple.Direction.FORWARD;
+    public final String motorName = "arm";
 
 
 
     //todo provide the angles (in radians) that your arm can run to when testing (larger range the better)
-    public final AngleRange testingAngle = new AngleRange(0.0, PI);
+    public final AngleRange testingAngle = new AngleRange(Math.toRadians(60), Math.toRadians(-150));
     //todo provide angles (in radians) that present as obstacles to the system. If none set to null
-    public final AngleRange obstacle = new AngleRange(-0.1 * PI, -0.3 * PI); // = null
+    public final AngleRange obstacle = new AngleRange(Math.toRadians(55), Math.toRadians(-141)); // = null
 
 
     //TESTING
